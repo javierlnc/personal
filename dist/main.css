@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Opens Sans' sans-serif ;
+    font-family: 'Roboto Flex', sans-serif;
 }
 body{
     background-color: #252525;
@@ -13,5 +13,13 @@ body{
 header{
     width: 100%;
     text-align: center;
-
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.title{
+    color: white;
+}
+.title h1{
+    font-size:3rem;
 }
